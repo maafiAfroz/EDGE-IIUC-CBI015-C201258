@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 20px;
+}
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.info {
+    flex-grow: 1;
+}
+.name {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.title {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 10px;
+}
+.contact {
+    margin-top: 10px;
+}
+.contact a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    margin: 2px 0;
+}
+.section {
+    margin-top: 20px;
+}
+.section-title {
+    font-size: 1.5em;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+.profile-description {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.skills, .education, .experience {
+    margin-top: 10px;
+}
+.skills-list, .education-list, .experience-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.skills-list li, .education-list li, .experience-list li {
+    margin-bottom: 10px;
+}
+.skills-list li {
+    display: inline-block;
+    background: #eef;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+}
+.education-list .degree, .experience-list .job-title {
+    font-weight: bold;
+}
+.education-list .school, .experience-list .company {
+    font-size: 0.9em;
+    color: #555;
+}
+.education-list .period, .experience-list .period {
+    font-size: 0.8em;
+    color: #999;
+}
