@@ -1,0 +1,108 @@
+body, html {
+    background: linear-gradient(135deg, #6e8efb, #d16552);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Modulus', sans-serif;
+}
+
+
+.calendar-container {
+    background-color: rgb(238, 207, 166);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 50px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.header {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.calendar-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.month-year {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.month-year h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.month-year span {
+    font-size: 1.2rem;
+}
+
+
+.calendar {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.days div {
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.dates div {
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dates .empty {
+    background-color: transparent;
+}
+
+.dates div:hover {
+    background-color: #f0f0f0;
+}
+
+
+.dates div:nth-child(1),
+.dates div:nth-child(8),
+.dates div:nth-child(15),
+.dates div:nth-child(22),
+.dates div:nth-child(29),
+.dates div:nth-child(36) {
+    color: red;
+    font-weight: bold;
+}
