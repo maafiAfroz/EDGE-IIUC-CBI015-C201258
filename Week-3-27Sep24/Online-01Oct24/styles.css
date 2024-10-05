@@ -1,11 +1,9 @@
-/* Basic reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styling */
 body {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
@@ -13,7 +11,6 @@ body {
     color: #333;
 }
 
-/* Header styling */
 header {
     background-color: #fef5e7;
     color: #333;
@@ -24,7 +21,7 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -34,7 +31,7 @@ header h1 {
 
 nav ul {
     display: flex;
-    gap: 15px;
+    gap: 35px;
     list-style-type: none;
 }
 
@@ -48,7 +45,6 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Hero section */
 .hero {
     background-image: #fef5e7;
     height: 80vh;
@@ -84,19 +80,17 @@ nav ul li a:hover {
     background-color: #ff910f;
 }
 
-/* About section */
 .about {
     padding: 60px 20px;
     text-align: center;
 }
 
 .container img {
-    max-width: 100%;
+    max-width: 1440px;
     height: auto;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
-/* Footer */
 footer {
     text-align: center;
     padding: 20px;
@@ -104,7 +98,6 @@ footer {
     color: white;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     header .container {
         flex-direction: column;
@@ -116,7 +109,6 @@ footer {
 }
 
 
-/* Features Section */
 .features {
     padding: 60px 20px;
     background-color: #FFF9F3;
@@ -186,7 +178,6 @@ footer {
     background-color: #ff910f;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .features-content {
         flex-direction: column;
@@ -202,7 +193,6 @@ footer {
     }
 }
 
-/* Features and Experience Section */
 .features-experience {
     display: flex;
     justify-content: space-between;
@@ -300,7 +290,6 @@ footer {
     text-transform: uppercase;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .features-experience {
         flex-direction: column;
@@ -322,7 +311,6 @@ footer {
 }
 
 
-/* Some Facts Section */
 .some-facts {
     text-align: center;
     padding: 60px 20px;
@@ -406,7 +394,6 @@ footer {
     margin: 20px;
 }
 
-/* Footer Section */
 .footer {
     text-align: center;
     padding: 20px;
@@ -418,7 +405,6 @@ footer {
     color: #666;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .facts-stats, .sponsor-logos {
         flex-direction: column;
