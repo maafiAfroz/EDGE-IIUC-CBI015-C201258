@@ -149,8 +149,6 @@
     grid-gap: 24px;
   }
   
-  .features-area .features-details {
-  }
   
   .features-details h1 {
     font-weight: 500;
@@ -191,8 +189,7 @@
     flex: 1;
   }
   
-  .love-enjoy-details {
-  }
+ 
   
   .love-enjoy-thumbnail {
     position: relative;
@@ -215,8 +212,6 @@
     margin-bottom: 30px;
   }
   
-  .love-enjoy-details .details-items {
-  }
   
   .details-items .detail-item {
     padding: 20px 33px;
