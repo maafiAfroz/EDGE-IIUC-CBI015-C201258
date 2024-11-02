@@ -4,129 +4,278 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>paint-midterm</title>
+    <title>paint-mid</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 
-<body class="bg-[#FFF1C9] ">
-    <header class="w-[1920px] flex justify-between items-center px-8 py-4 bg-[#FFF1C9]">
-        <div class="flex items-center">
-            <div class="w-[1600px] h-[96px] bg-[#FFFFFF] flex items-center justify-center rounded-full">
-                <div class="flex justify-center items-center"><img src="comp/logo.png"></div>
-            </div>
-        </div>
-    </header>
-
-    <section class="flex justify-center items-center h-screen">
-        <div class="w-full max-w-6xl flex justify-between items-center p-8">
-            
-            <div class="flex-1">
-                <p class="text-yellow-700 uppercase font-semibold tracking-widest">Risus Praesent Vulputate.</p>
-                <h1 class="text-5xl font-extrabold text-gray-900 leading-tight mt-2 mb-4">
-                    Cursus Integer <br>
-                    Consequat Tristique.
-                </h1>
-                <div class="flex flex-wrap gap-4 mb-6">
-                    <button
-                        class="bg-white text-gray-700 py-2 px-4 rounded-full shadow hover:bg-gray-100 flex items-center">
-                        <span>Cursus Integer</span>
-                    </button>
-                    <button
-                        class="bg-white text-gray-700 py-2 px-4 rounded-full shadow hover:bg-gray-100 flex items-center">
-                        <span>Integer Consequat</span>
-                    </button>
-                    <button
-                        class="bg-white text-gray-700 py-2 px-4 rounded-full shadow hover:bg-gray-100 flex items-center">
-                        <span>Tellus Eiusmod Pellentesque</span>
-                    </button>
-                    <button
-                        class="bg-white text-gray-700 py-2 px-4 rounded-full shadow hover:bg-gray-100 flex items-center">
-                        <span>Aliquot Tristique</span>
-                    </button>
+<body class="bg-yellow-100">
+    <section class="flex overflow-hidden flex-col items-center pt-16 pb-28 bg-amber-100 max-md:pb-24">
+        <header class="flex flex-col justify-center items-center px-20 py-4 w-full bg-white max-w-[1600px] rounded-[5000px] max-md:px-5 max-md:max-w-full">
+          <img src="comp/logo.png" alt="Company logo" class="object-contain max-w-full aspect-[2.02] w-[127px]" />
+        </header>
+        <main class="mt-16 ml-12 w-full max-w-[1505px] max-md:mt-10 max-md:max-w-full">
+          <div class="flex gap-5 max-md:flex-col">
+            <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+              <div class="flex flex-col items-start mt-12 w-full font-bold max-md:mt-10 max-md:max-w-full">
+                <div class="flex flex-col self-stretch w-full">
+                  <h2 class="self-start text-3xl text-yellow-500 uppercase max-md:max-w-full">
+                    risus praesent vulputate.
+                  </h2>
+                  <h1 class="flex flex-col w-full text-7xl leading-none text-neutral-800 max-md:max-w-full max-md:text-4xl">
+                    <span class="max-md:max-w-full max-md:text-3xl">Cursus Integer</span>
+                    <div class="flex flex-wrap gap-1.5 items-start w-full max-md:text-3xl">
+                      <div class="flex flex-col grow shrink-0 basis-0 w-fit max-md:max-w-full max-md:text-3xl">
+                        <span class="z-10 max-md:max-w-full max-md:text-3xl">Consequat Tristique.</span>
+                        
+                      </div>
+                      <div class="flex shrink-0 mt-2.5 bg-neutral-800 h-[90px] w-[7px]"></div>
+                    </div>
+                  </h1>
                 </div>
-                <button
-                    class="bg-yellow-500 text-white py-3 px-8 rounded-full text-lg flex items-center hover:bg-yellow-600">
-                    Lorem Ipsum <span class="ml-2">→</span>
-                </button>
+                <div class="flex flex-col mt-16 text-xl font-semibold text-neutral-800 max-md:mt-10 max-md:max-w-full">
+                  <div class="flex flex-wrap gap-3.5 items-center self-start max-md:max-w-full">
+                    <div class="flex gap-2 justify-center items-center self-stretch py-3.5 pr-10 pl-5 my-auto bg-white rounded-[5000px] max-md:pr-5">
+                      <img src="comp/icon-2.png" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[30px]" />
+                      <span class="self-stretch my-auto">Cursus Integer</span>
+                    </div>
+                    <div class="flex gap-2 justify-center items-center self-stretch py-3.5 pr-10 pl-5 my-auto bg-white min-w-[240px] rounded-[5000px] max-md:pr-5">
+                      <img src="comp/icon-2.png" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[30px]" />
+                      <span class="self-stretch my-auto">Integer Consequat</span>
+                    </div>
+                  </div>
+                  <div class="flex flex-wrap gap-3.5 items-center mt-3.5 max-md:max-w-full">
+                    <div class="flex gap-2 justify-center items-center self-stretch py-3.5 pr-10 pl-5 my-auto bg-white min-w-[240px] rounded-[5000px] max-md:pr-5">
+                      <img src="comp/icon-2.png" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[30px]" />
+                      <span class="self-stretch my-auto">Tellus Euismod Pellentesque</span>
+                    </div>
+                    <div class="flex gap-2 justify-center items-center self-stretch py-3.5 pr-10 pl-5 my-auto bg-white min-w-[240px] rounded-[5000px] max-md:pr-5">
+                      <img src="comp/icon-2.png" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[30px]" />
+                      <span class="self-stretch my-auto">Aliquot Tristique</span>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" class="flex overflow-hidden gap-10 justify-between items-center px-12 pt-6 pb-6 mt-16 max-w-full text-2xl bg-yellow-500 rounded-[5000px] text-neutral-800 w-[350px] max-md:px-5 max-md:mt-10">
+                  <span class="self-stretch my-auto">Lorem Ipsum</span>
+                  <img src="comp/icon-3.png" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[30px]" />
+                </a>
+              </div>
             </div>
-
-            
-            <div class=" flex justify-center">
-                <img src="comp/DrawKit Vector Illustration-1.png" alt="Illustration" class="w-[600px] h-auto">
+            <div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+              <img src="comp/DrawKit Vector Illustration-1.png" alt="Illustration of the product or service" class="object-contain w-full aspect-square max-md:mt-3 max-md:max-w-full" />
             </div>
-        </div>
-    </section>
-
-    <main>
-
+          </div>
+        </main>
+        <section class="bg-[#272726] flex overflow-hidden relative flex-col items-center self-stretch px-16 pt-40 pb-96 mt-28 w-full fill-neutral-800 min-h-[1545px] max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full">
+          
+          <div class="relative mb-0 ml-8 w-full max-w-[1466px] max-md:mb-2.5 max-md:max-w-full">
+            <div class="flex gap-5 max-md:flex-col">
+              <div class="flex flex-col w-[42%] max-md:ml-0 max-md:w-full">
+                <div class="flex relative flex-col self-stretch my-auto w-full max-md:mt-10 max-md:max-w-full">
+                  <div class="flex flex-col max-w-full w-[552px]">
+                    <p class="text-xl tracking-wide text-yellow-500 max-md:max-w-full">
+                      Quisque porttitor vitae vel amet neque scelerisque mattis. Consectetur nibh velit magna consectetur leo.
+                    </p>
+                    <h2 class="mt-5 text-5xl font-bold text-white max-md:max-w-full max-md:text-4xl">
+                      Cursus Integer Conseq <br /> Aliquam Tristique.
+                    </h2>
+                  </div>
+                  <a href="#" class="flex overflow-hidden gap-10 justify-between items-center px-12 pt-6 pb-6 mt-16 max-w-full text-2xl font-bold bg-white rounded-[5000px] text-neutral-800 w-[350px] max-md:px-5 max-md:mt-10">
+                    <span class="self-stretch my-auto">Lorem Ipsum</span>
+                    <img src="comp/icon-3.png" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[30px]" />
+                  </a>
+                </div>
+              </div>
+              <div class="flex flex-col ml-5 w-[58%] max-md:ml-0 max-md:w-full">
+                <div class="relative grow max-md:mt-10 max-md:max-w-full">
+                  <div class="flex gap-5 max-md:flex-col">
+                    <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+                      <div class="flex relative flex-col max-md:mt-10">
+                        <article class="flex flex-col px-12 py-14 bg-white rounded-[60px] max-md:px-5">
+                          <img src="comp/Icon-Images.png" alt="" class="object-contain aspect-square w-[60px]" />
+                          <div class="flex flex-col mt-6 w-full">
+                            <h3 class="flex items-start self-start text-7xl font-bold whitespace-nowrap max-md:text-4xl">
+                              <span class="border border-black border-solid text-neutral-800 max-md:text-4xl">1</span>
+                              <span class="text-yellow-500 max-md:text-4xl">.</span>
+                            </h3>
+                            <div class="flex flex-col mt-2.5 max-w-full text-neutral-800 w-[250px]">
+                              <h4 class="text-2xl font-bold">Phasellus Vitae</h4>
+                              <div class="flex flex-col mt-5 w-full">
+                                <h5 class="text-xl font-semibold">Quisque</h5>
+                                <p class="text-lg capitalize font-[350]">Porttitor vitae vel amet</p>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                        <div class="flex shrink-0 h-0 bg-neutral-800 rounded-[5000px]"></div>
+                        <article class="flex flex-col px-12 py-14 mt-16 bg-yellow-500 rounded-[60px] max-md:px-5 max-md:mt-10">
+                          <img src="comp/Icon-Images-3.png" alt="" class="object-contain aspect-square w-[50px]" />
+                          <div class="flex flex-col mt-9 w-full">
+                            <h3 class="flex items-start self-start text-7xl font-bold whitespace-nowrap max-md:text-4xl">
+                              <span class="text-neutral-800 max-md:text-4xl">3</span>
+                              <span class="text-white max-md:text-4xl">.</span>
+                            </h3>
+                            <div class="flex flex-col mt-2.5 max-w-full text-neutral-800 w-[250px]">
+                              <h4 class="text-2xl font-bold">Eleifend Pulvinar</h4>
+                              <div class="flex flex-col mt-5 w-full">
+                                <h5 class="text-xl font-semibold">Vitae</h5>
+                                <p class="text-lg capitalize font-[350]">Consectetur nibh velit</p>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                      </div>
+                    </div>
+                    <div class="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+                      <div class="flex relative flex-col grow mt-32 max-md:mt-10">
+                        <article class="flex flex-col px-12 py-14 bg-yellow-500 rounded-[60px] max-md:px-5">
+                          <img src="comp/Icon-Images-2.png" alt="" class="object-contain aspect-square w-[50px]" />
+                          <div class="flex flex-col mt-9 w-full">
+                            <h3 class="flex items-start self-start text-7xl font-bold whitespace-nowrap max-md:text-4xl">
+                              <span class="text-neutral-800 max-md:text-4xl">2</span>
+                              <span class="text-white max-md:text-4xl">.</span>
+                            </h3>
+                            <div class="flex flex-col mt-2.5 max-w-full text-neutral-800 w-[250px]">
+                              <h4 class="text-2xl font-bold">Iaculis Magna</h4>
+                              <div class="flex flex-col mt-5 w-full">
+                                <h5 class="text-xl font-semibold">Porttitor</h5>
+                                <p class="text-lg capitalize font-[350]">neque scelerisque mattis.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                        <div class="flex shrink-0 h-0 bg-neutral-800 rounded-[5000px]"></div>
+                        <article class="flex flex-col px-12 py-14 mt-16 bg-white rounded-[60px] max-md:px-5 max-md:mt-10">
+                          <img src="comp/Icon-Images-1.png" alt="" class="object-contain aspect-square w-[50px]" />
+                          <div class="flex flex-col mt-9 w-full">
+                            <h3 class="flex items-start self-start text-7xl font-bold whitespace-nowrap max-md:text-4xl">
+                              <span class="text-neutral-800 max-md:text-4xl">4</span>
+                              <span class="text-yellow-500 max-md:text-4xl">.</span>
+                            </h3>
+                            <div class="flex flex-col mt-2.5 max-w-full text-neutral-800 w-[250px]">
+                              <h4 class="text-2xl font-bold">Velit Odio Phir</h4>
+                              <div class="flex flex-col mt-5 w-full">
+                                <h5 class="text-xl font-semibold">Ametneq</h5>
+                                <p class="text-lg capitalize font-[350]">magna consectetur leo.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </article>
+                        <div class="flex shrink-0 h-0 bg-neutral-800 rounded-[5000px]"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="flex z-10 flex-col justify-center items-center px-16 py-24 mt-0 w-full bg-white max-w-[1650px] max-md:px-5 max-md:max-w-full">
+          <div class="flex flex-wrap gap-10 items-center max-md:max-w-full">
+            <img src="comp/Rectangle 4200.png" alt="Customer testimonial portrait" class="object-contain self-stretch my-auto aspect-square min-w-[240px] rounded-[500px] w-[472px] max-md:max-w-full" />
+            <div class="flex flex-col self-stretch my-auto min-w-[240px] w-[837px] max-md:max-w-full">
+              <h2 class="text-5xl font-bold text-neutral-800 max-md:max-w-full max-md:text-4xl">
+                What our customers thought?
+              </h2>
+              <blockquote class="flex flex-col mt-10 w-full max-w-[837px] max-md:max-w-full">
+                <div class="flex flex-col w-full text-neutral-800">
+                  <p class="text-3xl leading-10 max-md:max-w-full">
+                    Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis.
+                  </p>
+                  <cite class="self-start mt-5 text-2xl font-bold text-center">
+                    Holly Davidson
+                  </cite>
+                </div>
+                <div class="flex gap-10 justify-center items-center self-start mt-10">
+                  <img src="comp/trending_flat.png" alt="Previous testimonial" class="object-contain shrink-0 self-stretch my-auto w-10 aspect-[2.35] fill-neutral-800" />
+                  <img loading="lazy" src="comp/trending_flat-1.png" alt="Next testimonial" class="object-contain shrink-0 self-stretch my-auto aspect-[2.29] fill-yellow-500 w-[39px]" />
+                </div>
+              </blockquote>
+            </div>
+          </div>
+        </section>
         
-        <div class="bg-[#262626] text-white py-16">
-            
-            <div class="max-w-6xl mx-auto px-4 flex flex-col lg:flex-row justify-between items-start lg:items-center">
-                <div class="lg:w-1/2 space-y-4">
-                    <p class="text-[#F9B800] uppercase">Quisque portitor</p>
-                    <h1 class="text-4xl font-bold">Cursus Integer Conseq Aliquam Tristique.</h1>
-                    <p class="text-gray-300">Consectetur nibh nisl magna consectetur leo.</p>
-                    <button
-                        class="mt-4 px-6 py-2 bg-white text-gray-900 font-semibold rounded-full flex items-center space-x-2">
-                        <span>Lorem Ipsum</span>
-                        <span>→</span>
-                    </button>
-                </div>
-                
-                <div class="grid grid-cols-2 gap-4 lg:w-1/2 mt-8 lg:mt-0">
-                    
-                    <div class="bg-white text-gray-900 p-4 rounded-[40px] shadow-lg ">
-                        <div><img src="comp/Icon-Images.png" alt=""></div>
-                        <div class="text-[#000000] font-bold text-[55px]">1.</div>
-                        <h3 class="font-semibold">Phasellus Vitae</h3>
-                        <p class="text-gray-500 font-bold text-sm">Quisque <br> Proin Vitae Vel Armet</p>
-                    </div>
-                    
-                    <div class="bg-yellow-500 text-white p-4 rounded-lg shadow-lg">
-                        <div class="font-bold text-2xl">2.</div>
-                        <h3 class="font-semibold">Iaculis Magna</h3>
-                        <p class="text-sm">Porttitor Neque Scelerisque Mattis</p>
-                    </div>
-                    
-                    <div class="bg-yellow-500 text-white p-4 rounded-lg shadow-lg">
-                        <div class="font-bold text-2xl">3.</div>
-                        <h3 class="font-semibold">Eleifend Pulvinar</h3>
-                        <p class="text-sm">Vulputate Consectetur Nullam Vel</p>
-                    </div>
-                    
-                    <div class="bg-white text-gray-900 p-4 rounded-lg shadow-lg">
-                        <div class="text-yellow-500 font-bold text-2xl">4.</div>
-                        <h3 class="font-semibold">Velit Odio Phas</h3>
-                        <p class="text-gray-500 text-sm">Ametcon Magna Consectetur Leo</p>
-                    </div>
-                </div>
+        <section class="bg-[#272726] flex overflow-hidden relative flex-col items-end self-stretch px-20 pt-44 pb-28 mt-44 w-full fill-neutral-800 min-h-[1260px] max-md:px-5 max-md:py-24 max-md:mt-10 max-md:max-w-full">
+          
+          <div class="flex relative flex-col items-center mb-0 w-full max-w-[1650px] max-md:mb-2.5 max-md:max-w-full">
+            <div class="flex flex-col items-center text-center text-white max-md:max-w-full">
+              <h2 class="text-6xl font-bold leading-tight max-md:max-w-full max-md:text-4xl">
+                Phasellus a vitae iaculis magna.
+              </h2>
+              <p class="mt-3.5 text-3xl leading-none max-md:max-w-full">
+                Phasellus a vitae iaculis magna eleifend pulvinar velit odio.
+              </p>
             </div>
-
-            
-            <div class="bg-yellow-500 mt-16 py-12">
-                <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8 flex items-center space-x-6">
-                    
-                    <img src="https://via.placeholder.com/100" alt="Testimonial"
-                        class="rounded-full w-24 h-24 object-cover">
-                    
-                    <div>
-                        <h3 class="text-2xl font-bold text-gray-900">What our customers thought?</h3>
-                        <p class="text-gray-700 mt-2">Euismod magna id purus eget nunc ligula suspendisse dui netus.
-                            Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis.</p>
-                        <p class="text-gray-900 font-semibold mt-4">Holly Davidson</p>
+            <div class="flex flex-col mt-24 w-full text-3xl text-neutral-800 max-md:mt-10">
+              <details class="flex flex-col w-full">
+                <summary class="flex flex-col justify-center px-16 py-16 w-full bg-white rounded-[60px] max-md:px-5 max-md:max-w-full cursor-pointer">
+                  <div class="flex flex-wrap gap-10 items-center max-md:max-w-full">
+                    <div class="flex flex-col self-stretch my-auto min-w-[240px] w-[1372px] max-md:max-w-full">
+                      <h3 class="font-bold max-md:max-w-full">
+                        Quam vehicula faucibus amet lorem.
+                      </h3>
+                      <p class="mt-5 leading-10 max-md:max-w-full">
+                        Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis. Mauris fermentum praesent tellus euismod.
+                      </p>
                     </div>
-                </div>
+                    <img loading="lazy" src="comp/icon.png" alt="Expand/Collapse icon" class="object-contain shrink-0 self-stretch my-auto w-14 aspect-square" />
+                  </div>
+                </summary>
+              </details>
+              <details class="flex flex-col mt-6 w-full font-semibold">
+                <summary class="flex flex-col justify-center px-16 py-11 w-full bg-white rounded-[40px] max-md:px-5 max-md:max-w-full cursor-pointer">
+                  <div class="flex flex-wrap gap-10 items-center max-md:max-w-full">
+                    <h3 class="self-stretch my-auto w-[1372px] max-md:max-w-full">
+                      Pellentesque tempus sed phasellus vel.
+                    </h3>
+                    <img loading="lazy" src="comp/icon-1.png" alt="Expand/Collapse icon" class="object-contain shrink-0 self-stretch my-auto w-14 aspect-square" />
+                  </div>
+                </summary>
+              </details>
+              <details class="flex flex-col mt-6 w-full font-semibold">
+                <summary class="flex flex-col justify-center px-16 py-11 w-full bg-white rounded-[40px] max-md:px-5 max-md:max-w-full cursor-pointer">
+                  <div class="flex flex-wrap gap-10 items-center max-md:max-w-full">
+                    <h3 class="self-stretch my-auto w-[1372px] max-md:max-w-full">
+                      Mauris fermentum praesent tellus euismod pellentesque urna ac massa in.
+                    </h3>
+                    <img loading="lazy" src="comp/icon-1.png" alt="Expand/Collapse icon" class="object-contain shrink-0 self-stretch my-auto w-14 aspect-square" />
+                  </div>
+                </summary>
+              </details>
+              <details class="flex flex-col mt-6 w-full font-semibold">
+                <summary class="flex flex-col justify-center px-16 py-11 w-full bg-white rounded-[40px] max-md:px-5 max-md:max-w-full cursor-pointer">
+                  <div class="flex flex-wrap gap-10 items-center max-md:max-w-full">
+                    <h3 class="self-stretch my-auto w-[1372px] max-md:max-w-full">
+                      Vulputate et vulputate suspendisse natoque id tellus consectetur pulvinar et.
+                    </h3>
+                    <img loading="lazy" src="comp/icon-1.png" alt="Expand/Collapse icon" class="object-contain shrink-0 self-stretch my-auto w-14 aspect-square" />
+                  </div>
+                </summary>
+              </details>
             </div>
-        </div>
-
-
-
-    </main>
-
-
+          </div>
+        </section>
+        <section class="flex flex-col items-center mt-16 ml-7 w-full max-w-[1714px] text-neutral-800 max-md:mt-10 max-md:max-w-full">
+          <div class="flex flex-col items-center w-full font-bold max-md:max-w-full">
+            <div class="flex flex-wrap gap-10 items-center max-md:max-w-full">
+              <h2 class="self-stretch my-auto text-5xl w-[713px] max-md:max-w-full max-md:text-4xl">
+                Vulputate et pulvinar ethre Suspendisse tellus consecteur
+              </h2>
+              <a href="#" class="flex overflow-hidden gap-10 justify-between items-center self-stretch px-12 pt-6 pb-6 my-auto text-2xl bg-yellow-500 min-w-[240px] rounded-[5000px] w-[350px] max-md:px-5">
+                <span class="self-stretch my-auto">Lorem Ipsum</span>
+                <img loading="lazy" src="comp/icon-3.png" alt="" class="object-contain shrink-0 self-stretch my-auto aspect-square w-[30px]" />
+              </a>
+            </div>
+            <hr class="mt-24 w-full stroke-[1px] stroke-neutral-800 stroke-opacity-10 max-md:mt-10" />
+          </div>
+          <footer class="flex flex-wrap gap-5 justify-between mt-10 max-w-full text-xl font-semibold w-[1510px]">
+            <p class="my-auto">Copyright © 2022 Lorem Ipsum.</p>
+            <nav class="tracking-wide leading-9 text-right">
+              <a href="#" class="underline">Privacy Policy</a> | <a href="#" class="underline">Terms and Conditions</a>
+            </nav>
+          </footer>
+        </section>
+      </section>
 </body>
 
 </html>
